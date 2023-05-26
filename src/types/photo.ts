@@ -6,7 +6,7 @@ export interface Photo {
   description?: string
   category: PhotoCategory
   githubUser: string
-  created: string
+  created: Date
 }
 
 export type PhotoInput = Omit<Photo, 'id'>

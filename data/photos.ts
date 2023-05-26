@@ -7,14 +7,14 @@ export const photos: Photo[] = [
     description: 'The heart chute is one of my favorite chutes',
     category: 'ACTION',
     githubUser: 'gPlake',
-    created: '3-28-1977',
+    created: new Date('3-28-1977'),
   },
   {
     id: '2',
     name: 'Enjoying the sunshine',
     category: 'SELFIE',
     githubUser: 'sSchmidt',
-    created: '1-2-1985',
+    created: new Date('1-2-1985'),
   },
   {
     id: '3',
@@ -22,6 +22,6 @@ export const photos: Photo[] = [
     description: '25 laps on gunbarrel today',
     category: 'LANDSCAPE',
     githubUser: 'sSchmidt',
-    created: '2018-04-15T19:09:57.308Z',
+    created: new Date('2018-04-15T19:09:57.308Z'),
   },
 ]

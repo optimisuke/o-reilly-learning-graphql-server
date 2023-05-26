@@ -20,7 +20,7 @@ export const resolvers = {
       const newPhoto: Photo = {
         ...args.input,
         id: `${id++}`,
-        created: new Date().toString(),
+        created: new Date(),
       }
       photos.push(newPhoto)
       return newPhoto
